@@ -1,0 +1,53 @@
+input {
+  padding: 8px;
+  margin-bottom: 6px;
+  width: 20%;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 2px solid green;
+}
+::placeholder {
+  padding: 8px;
+  text-align: center;
+}
+
+.submit input {
+  color: rgb(19, 18, 18);
+  width: 95px;
+  /* padding: 9px; */
+  background-color: rgb(7, 187, 187);
+  border: 2px solid rgb(7, 187, 187);
+  margin-left: 90px;
+}
+select {
+  padding: 8px;
+}
+h1 {
+  background-color: antiquewhite;
+  width: max-content;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 8px;
+}
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  margin: auto;
+  /* justify-content: center; */
+  margin-top: 80px;
+  background-color: darkgray;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 4px 16px;
+  text-align: center;
+}
